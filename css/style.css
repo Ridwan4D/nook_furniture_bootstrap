@@ -342,6 +342,40 @@
 /* =========== futura section end here ================ */
 
 
+/* =========== choose section starts here ================ */
+#choose_section {
+    padding: 120px 0;
+    background-color: #FAFAFA;
+}
+
+.choose_header>.font_roslindale {
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 500;
+    margin-bottom: 88px;
+}
+
+.choose_card {
+    max-width: 350px;
+}
+
+.choose_card_img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.choose_card_body {
+    margin-top: 40px;
+    gap: 14px;
+}
+.choose_card_desc {
+    padding: 0 30px;
+    color: #495050;
+}
+
+/* =========== choose section ends here ================ */
+
+
 
 .rotate_360 {
     animation: spin 8s linear infinite;

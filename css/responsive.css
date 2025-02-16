@@ -269,6 +269,14 @@
 
     /* ========= futura section end ============== */
 
+    /* ============= choose section start =============== */
+    .choose_body {
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    /* ============= choose section end ============== */
+
     /* ============= contact section start =============== */
     #contact_section {
         padding: 0;

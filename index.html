@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nook Furniture</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- header section start -->
     <header id="header_section" class="bg-light">
-        <nav class="navbar  container">
+        <nav class="navbar container">
             <div class="nav_start"><a href="#"><img src="images/site_logo.svg" alt="" class="nav_logo"></a></div>
             <div class="nav_center"><a href="#"><img src="images/hamburger.svg" alt="" class="hamburger_img"></a></div>
-            <div class="d-flex gap-4">
+            <div class="d-flex gap-1 gap-md-2 gap-lg-4">
                 <a href="#"><img src="images/profile.svg" alt="" class="nav_social"></a>
                 <a href="#"><img src="images/heart.svg" alt="" class="nav_social"></a>
                 <a href="#"><img src="images/cart-4.svg" alt="" class="nav_social"></a>
@@ -23,18 +24,57 @@
         </nav>
     </header>
     <!-- header section end -->
-    <!-- main section start -->
     <main>
-
+        <!-- hero section start -->
+        <section id="hero_section" class="bg-light position-relative">
+            <img src="images/hero_svg.svg" alt="" class="hero_svg_animation position-absolute w-100 z-1">
+            <div class="header_container container position-relative z-2">
+                <div class="hero_section">
+                    <div
+                        class="hero_header d-flex flex-column justify-content-center align-items-center mx-auto text-center">
+                        <h1 class="hero_heading font_roslindale secondary_color">Make your environment minimalistic and
+                            futuristic</h1>
+                        <p class="hero_para font_inter text-lg">Transform your closets into functional works of art with
+                            closet creations’
+                            custom design solutions.
+                        </p>
+                    </div>
+                    <div class="hero_body d-flex justify-content-between">
+                        <!-- card -->
+                        <div class="hero_small_card d-flex flex-column">
+                            <img src="images/hero_furniture_1.png" alt="" class="hero_card_images">
+                            <div class="hero_card_body d-flex justify-content-between">
+                                <h3 class="hero_card_title fs-5 font_roslindale">Vintage Desk Accessories 2024</h3>
+                                <div><img src="images/bnt_icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <!-- card -->
+                        <div class="hero__img_card_parent position-relative">
+                            <img src="images/explore_badge.svg" alt="" class="hero_badge position-absolute rotate_360">
+                            <img src="images/hero_furniture_2.png" alt="" class="hero_card_images hero_mid_card">
+                        </div>
+                        <!-- card -->
+                        <div class="hero_small_card d-flex flex-column">
+                            <img src="images/hero_furniture_3.png" alt="" class="hero_card_images">
+                            <div class="hero_card_body d-flex justify-content-between">
+                                <h3 class="hero_card_title fs-4 hero_card_2 font_roslindale">Minimal Tulip Chair 2o24
+                                </h3>
+                                <div><img src="images/bnt_icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
     </main>
-    <!-- main section end -->
     <!-- footer section start -->
     <footer>
 
     </footer>
     <!-- footer section end -->
 
-
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /* ========= header section start ============== */
+    .nav_logo,
+    .nav_social,
+    .hamburger_img {
+        width: 75%;
+    }
+    /* ========= header section end ============== */
+}

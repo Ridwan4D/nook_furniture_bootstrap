@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nook Furniture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -149,6 +150,52 @@
             <!-- marquee section ends here -->
         </section>
         <!-- hero section end -->
+
+        <!-- slide image section -->
+        <section id="slider_section" class="mx-auto">
+            <div class="container slider_container">
+                <div class="swiper mySwiper slide_parent h-100 w-100">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slideer_1.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Sofa</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slider_3.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Accessories</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slider_2.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Chair</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slider_3.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Accessories</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slideer_1.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Sofa</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slider_3.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">Accessories</h3>
+                        </div>
+                        <div class="swiper-slide slider_image_container">
+                            <img src="images/slider_2.png" alt="checkout_card_img" class="checkout_card_img w-100">
+                            <h3 class="font_roslindale">chair</h3>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                    <div class="slide_child d-flex rounded-circle justify-content-center align-items-center z-1 bg-white text-lg " id="slider_btn_container">
+                        <img src="images/chevron-left.svg" alt="" class="slide_prev">
+                        <h3 class="font_inter fs-5 secondary_color">Scroll</h3>
+                        <img src="images/chevron-right.svg" alt="" class="slide_next">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide image section -->
     </main>
     <!-- footer section start -->
     <footer>
@@ -158,9 +205,11 @@
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/marquee.js"></script>
+    <script src="js/slide.js"></script>
 </body>
 
 </html>

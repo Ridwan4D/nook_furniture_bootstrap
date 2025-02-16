@@ -210,8 +210,18 @@
 
 
     /* ========= popular section start ============== */
+
+    #popular_section {
+        margin-top: 70px;
+    }
+
     .tab_content {
         grid-template-columns: 1fr;
+    }
+
+
+    .popular_heading {
+        font-size: 31px;
     }
 
     /* ========= popular section end ============== */

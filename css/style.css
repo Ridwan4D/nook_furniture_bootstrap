@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+:root {
+    --primary-color: #00494A;
+    --secondary-color: #303635;
+}
+
 .primary_bg {
     background-color: #00494A;
 }
@@ -142,13 +147,112 @@
     height: 140px;
     width: 140px;
 }
-.slide_child{
+
+.slide_child {
     cursor: grab;
 }
 
 /* ================ slide section end ===================== */
 
+/* ================ popular section start ===================== */
+#popular_section {
+    margin-top: 143px;
+}
 
+.popular_header {
+    justify-content: center;
+}
+
+
+.popular_heading {
+    font-size: 48px;
+    line-height: 62.4px;
+    color: #303635;
+}
+
+.popular_body {
+    margin-top: 48px;
+}
+
+.popular_tab_box {
+    border-bottom: 2px solid #CFCFCF;
+    gap: 44.33px;
+}
+
+.tab_btn {
+    color: #414141;
+    background: none;
+    border: none;
+    padding-bottom: 10px;
+}
+
+.popular_tab_box .active {
+    color: var(--primary-color);
+}
+
+.popular_tab_box .line {
+    top: 36px;
+    left: 0;
+    width: 40px;
+    height: 4px;
+    border-radius: 35px;
+    background-color: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+
+.tab_content {
+    margin-top: 48px;
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    animation: moving .5s ease;
+}
+
+.tab_content.active {
+    display: grid;
+}
+
+.tab_card_body {
+    gap: 14px;
+}
+
+.tab_card_price {
+    font-style: normal;
+    color: #888888;
+}
+
+.see_all_bnt_div {
+    margin-top: 80px;
+}
+
+.see_all_bnt {
+    gap: 10px;
+}
+
+.see_all_bnt::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: width .2s ease-in-out;
+}
+
+.see_all_bnt:hover::after {
+    width: 100%;
+}
+
+.see_all_bnt,
+.see_all_bnt_arrow {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* =========== popular section ends here ================ */
 
 
 
@@ -201,5 +305,17 @@
 
     to {
         transform: translateX(-100%);
+    }
+}
+
+@keyframes moving {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

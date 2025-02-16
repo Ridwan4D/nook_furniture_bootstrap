@@ -201,6 +201,13 @@
 
     /* ========= hero section end ============== */
 
+    /* ========= slider section start ============== */
+    .checkout_card_img {
+        height: auto;
+    }
+
+    /* ========= slider section end ============== */
+
 
     /* ========= popular section start ============== */
     .tab_content {

@@ -368,6 +368,7 @@
     margin-top: 40px;
     gap: 14px;
 }
+
 .choose_card_desc {
     padding: 0 30px;
     color: #495050;
@@ -376,8 +377,141 @@
 /* =========== choose section ends here ================ */
 
 
+/* =========== contact section starts here ================ */
+#contact_section {
+    padding: 109px 0 104px;
+}
 
-.rotate_360 {
+.contact_container {
+    padding: 99px 0 98px;
+}
+
+.contact_bg_svg {
+    top: 375px;
+}
+
+.rotate_1 {
+    opacity: .2;
+    top: 190px;
+    left: 107px;
+}
+
+.rotate_2 {
+    opacity: .2;
+    top: 265px;
+    left: 80px;
+}
+
+.rotate_3 {
+    bottom: 125px;
+    right: 125px;
+}
+
+
+.contact_header {
+    max-width: 734px;
+    margin: 0 auto 56px;
+}
+
+.contact_heading {
+    font-size: 56px;
+    line-height: 72px;
+    margin-bottom: 32px;
+}
+
+.contact_desc {
+    line-height: 32px;
+}
+
+.contact_btn_container {
+    align-items: center;
+    gap: 40px;
+}
+
+.contact_call_btn {
+    padding: 12px 36px;
+    cursor: pointer;
+}
+
+.contact_see_btn {
+    padding: 12px 16px 12px 24px;
+    cursor: pointer;
+}
+
+/* =========== contact section ends here ================ */
+
+/* =========== footer section starts here ================ */
+#footer_section {
+    background-color: #FAFAFA;
+    padding: 64px 0 34px;
+}
+
+.footer_top {
+    margin-bottom: 56px;
+}
+
+.footer_top_start {
+    max-width: 363px;
+}
+
+.footer_logo_img {
+    width: 111px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.footer_top_desc {
+    color: #5A5E5E;
+    margin-bottom: 52px;
+    padding-right: 10%;
+}
+
+.footer_top_center {
+    gap: 128px;
+}
+
+.footer_links {
+    font-family: "Inter", serif;
+    text-decoration: none;
+    list-style: none;
+    color: #495050;
+}
+
+.footer_top_end {
+    max-width: 318px;
+}
+
+.footer_heading {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46px;
+    padding-right: 5%;
+    margin-bottom: 40px;
+}
+
+
+.horizontal_line {
+    border: 1px solid #9C9E9E;
+}
+
+.footer_bottom {
+    margin-top: 20px;
+    color: #5A5E5E;
+    justify-content: space-between;
+}
+
+.privacy_div {
+    gap: 76px;
+}
+
+.footer_policy_btn {
+    color: #495050;
+}
+
+
+
+.rotate_360,
+.rotate_360_N {
     animation: spin 8s linear infinite;
 }
 

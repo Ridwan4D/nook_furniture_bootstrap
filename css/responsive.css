@@ -1,3 +1,62 @@
+
+@media (min-width:769px) and (max-width:1199px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    /* ============= hero section start =============== */
+    .hero_body {
+        gap: 30px;
+    }
+
+    .hero_mid_card {
+        height: 81%;
+        object-fit: cover;
+    }
+
+    .hero_badge {
+        left: 20%;
+    }
+
+    /* ============= hero section end =============== */
+}
+
+
+
+@media (min-width:601px) and (max-width:768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+
+    /* =============== hero section start =============== */
+    .hero_body {
+        gap: 20px;
+    }
+
+    .hero_small_card {
+        max-width: 220px;
+    }
+
+    .hero_mid_card {
+        margin-top: 37px;
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    .hero_badge {
+        top: -43px;
+        left: 17%;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 600px) {
     .container {
         padding: 0 15px;
@@ -9,5 +68,41 @@
     .hamburger_img {
         width: 75%;
     }
+
     /* ========= header section end ============== */
+
+
+    /* ========= hero section start ============== */
+
+    .hero_header {
+        gap: 12px;
+    }
+
+    .hero_heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .hero_body {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero_small_card {
+        max-width: 580px;
+    }
+
+    .hero_mid_card {
+        margin-top: 55px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .hero_badge {
+        width: 50%;
+        top: -12px;
+        left: 25%;
+    }
+
+    /* ========= hero section end ============== */
 }

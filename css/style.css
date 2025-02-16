@@ -87,6 +87,7 @@
 
 .hero_mid_card {
     margin-top: 85px;
+    width: 100%;
 }
 
 .hero_badge {
@@ -95,3 +96,48 @@
 }
 
 /* ================ hero section end ===================== */
+
+
+
+
+
+
+
+
+
+
+
+.rotate_360 {
+    animation: spin 8s linear infinite;
+}
+
+.rotate_360_N {
+    animation-direction: reverse;
+}
+
+.bounce_svg {
+    animation: bounce 7s linear infinite;
+}
+
+/* ================ animations ================= */
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

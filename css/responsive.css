@@ -25,6 +25,22 @@
     }
 
     /* ============= popular section end =============== */
+
+    /* ============= futura section start =============== */
+    .futura_container {
+        padding: 60px 30px !important;
+        gap: 30px;
+    }
+
+    .futura_left_bottom {
+        margin-top: 50px;
+        padding: 40px 25px;
+        gap: 65px;
+        width: 75% !important;
+    }
+
+    /* ============= futura section end =============== */
+
 }
 
 
@@ -67,6 +83,27 @@
     }
 
     /* ========= popular section end ============== */
+
+
+    /* ========= futura section start ============== */
+    .futura_container {
+        padding: 30px 15px;
+
+    }
+
+    .futura_container,
+    .futura_left_bottom {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+
+    .futura_right {
+        margin-top: 100px;
+    }
+
+    .futura_badge {
+        top: -80px;
+    }
 
 }
 
@@ -135,4 +172,41 @@
     }
 
     /* ========= popular section end ============== */
+
+    /* ========= futura section start ============== */
+    .futura_container {
+        padding: 30px 15px;
+
+    }
+
+    .futura_container,
+    .futura_left_bottom {
+        flex-direction: column !important;
+    }
+
+    .futura_left_bottom {
+        gap: 30px !important;
+    }
+
+    .futura_heading {
+        font-size: 30px;
+        line-height: 42.4px;
+        margin-bottom: 16px;
+    }
+
+    .futura_desc {
+        font-size: 14px;
+    }
+
+    .futura_right {
+        margin-top: 70px;
+    }
+
+    .futura_badge {
+        width: 30%;
+        top: -50px;
+        right: 20px;
+    }
+
+    /* ========= futura section end ============== */
 }

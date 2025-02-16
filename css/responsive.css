@@ -129,18 +129,19 @@
     /* ============ contact end ============ */
 
     /* ============ footer start ============ */
-    .footer_top {
+    .footer_top,
+    .footer_top_center {
         gap: 30px;
+    }
+
+    .footer_top_start {
+        max-width: 300px;
     }
 
     .footer_heading {
         font-size: 25px;
         line-height: 23px;
         padding-right: 0;
-    }
-
-    .footer_top_center {
-        gap: 22px;
     }
 
     .footer_link_container {

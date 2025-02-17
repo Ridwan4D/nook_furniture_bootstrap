@@ -14,9 +14,11 @@ tabs.forEach((tab, idx) => {
         line.style.left = e.target.offsetLeft + "px";
 
         all_content.forEach((content) => {
-            content.classList.remove("active");
+            content.classList.remove("row");
+            content.classList.add("d-none");
         });
-        all_content[idx].classList.add("active");
+        all_content[idx].classList.remove("d-none");
+        all_content[idx].classList.add("row");
     });
 });
 

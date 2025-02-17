@@ -202,15 +202,15 @@
 
 .tab_content {
     margin-top: 48px;
-    display: none;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    /* display: none;  */
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* gap: 24px; */
     animation: moving .5s ease;
 }
 
-.tab_content.active {
-    display: grid;
-}
+/* .tab_content.active {
+    display: inline;
+} */
 
 .tab_card_body {
     gap: 14px;

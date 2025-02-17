@@ -20,9 +20,9 @@
     /* ============= hero section end =============== */
 
     /* ============= popular section start =============== */
-    .tab_content {
+    /* .tab_content {
         grid-template-columns: repeat(3, 1fr);
-    }
+    } */
 
     /* ============= popular section end =============== */
 
@@ -94,9 +94,9 @@
     }
 
     /* ========= popular section start ============== */
-    .tab_content {
+    /* .tab_content {
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     /* ========= popular section end ============== */
 
@@ -221,9 +221,9 @@
         margin-top: 70px;
     }
 
-    .tab_content {
+    /* .tab_content {
         grid-template-columns: 1fr;
-    }
+    } */
 
 
     .popular_heading {

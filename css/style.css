@@ -105,6 +105,10 @@
     left: 30%;
 }
 
+#hero_section>.bg-white {
+    border-bottom: 1px solid #6D7373;
+}
+
 .marquee_div {
     font-size: 22px;
 }

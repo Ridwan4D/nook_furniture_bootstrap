@@ -502,7 +502,9 @@
 .footer_policy_btn {
     color: #495050;
 }
-
+.footer_contact_btn_img{
+    width: 20px;
+}
 
 
 .rotate_360,

@@ -33,7 +33,7 @@ const observer = new IntersectionObserver(
                     let count = 0;
                     const increment = target / speed;
 
-                    counter.innerText = "0 +"; // Reset counter before starting
+                    counter.innerText = "0 +";
 
                     const interval = setInterval(() => {
                         count += increment;

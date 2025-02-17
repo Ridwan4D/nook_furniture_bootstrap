@@ -1,4 +1,4 @@
-const slideSection = document.getElementById('slider_section');
+const slideSection = document.getElementById('slide_container');
 const sliderBtnContainer = document.getElementById('slider_btn_container');
 
 // Swiper instance
@@ -43,14 +43,13 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 
-
 const centerButton = () => {
     const sectionWidth = slideSection.clientWidth;
     const sectionHeight = slideSection.clientHeight;
     const leftHalfWidth = sectionWidth / 2;
 
     sliderBtnContainer.style.position = "absolute";
-    sliderBtnContainer.style.transform = "translate(-57%, -50%)";
+    sliderBtnContainer.style.transform = "translate(-50%, -50%)";
     sliderBtnContainer.style.top = `${sectionHeight / 2}px`;
     sliderBtnContainer.style.left = `${leftHalfWidth}px`;
 };
@@ -67,19 +66,13 @@ slideSection.addEventListener("mouseleave", centerButton);
 window.addEventListener("resize", centerButton);
 centerButton();
 
-
 slideSection.addEventListener("click", (e) => {
     const sectionRect = slideSection.getBoundingClientRect();
-    // console.log(sectionRect.width / 2)
     const sectionMidPoint = sectionRect.left + sectionRect.width / 2;
-    // console.log(sectionMidPoint)
 
     if (e.clientX < sectionMidPoint) {
-        // console.log(e.clientX)
-
         swiper.slidePrev();
     } else {
-        // console.log(e.clientX)
         swiper.slideNext();
     }
 });

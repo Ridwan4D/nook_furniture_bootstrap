@@ -59,11 +59,6 @@
 }
 
 .hero_header {
-    max-width: 846px;
-    width: 100%;
-}
-
-.hero_header {
     gap: 40px;
 }
 
@@ -75,7 +70,7 @@
 .hero_para {
     font-size: 18px;
     line-height: 21px;
-    max-width: 429px;
+    max-width: 509px;
     width: 100%;
     color: #5F6060;
 }
@@ -142,14 +137,10 @@
     object-position: top;
 }
 
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
 #slider_btn_container {
     height: 140px;
     width: 140px;
+    /* transition: top 0.2s ease, left 0.2s ease; */
 }
 
 .slide_child {

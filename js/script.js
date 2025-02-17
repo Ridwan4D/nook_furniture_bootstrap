@@ -23,14 +23,17 @@ tabs.forEach((tab, idx) => {
 });
 
 const observer = new IntersectionObserver(
-    (entries, observer) => {
+    (entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 const counter = entry.target;
+
                 function updateData() {
                     const target = Number(counter.getAttribute("data-target"));
                     let count = 0;
                     const increment = target / speed;
+
+                    counter.innerText = "0 +"; // Reset counter before starting
 
                     const interval = setInterval(() => {
                         count += increment;
@@ -44,7 +47,6 @@ const observer = new IntersectionObserver(
                 }
 
                 updateData();
-                observer.unobserve(counter);
             }
         });
     },

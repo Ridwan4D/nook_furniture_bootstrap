@@ -140,7 +140,7 @@
 #slider_btn_container {
     height: 140px;
     width: 140px;
-    /* transition: top 0.2s ease, left 0.2s ease; */
+    transition: top 0.2s ease, left 0.2s ease;
 }
 
 .slide_child {
